@@ -1,0 +1,25 @@
+# Default properties file
+spring:
+  application:
+    name: projeto
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+  jpa:
+    properties:
+      hibernate.default_schema: 'public'
+    open-in-view: true
+    hibernate:
+      ddl-auto: validate
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/projeto?stringtype=unspecified
+    username: root
+    password: root
+
+server:
+  port: 8180

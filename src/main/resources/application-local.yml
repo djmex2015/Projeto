@@ -1,0 +1,14 @@
+# Properties file for local environment
+## Overrides application.yml default properties
+#spring:
+#  jpa:
+#    show_sql: false
+#
+#app:
+#  datasource:
+#      jdbc-url: jdbc:postgresql://localhost:5432/projeto}?stringtype=unspecified
+#      username: root
+#      password: root
+#
+#server:
+#  port: 8180
